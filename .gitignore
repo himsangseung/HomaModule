@@ -15,6 +15,24 @@
 *.tt
 *.out
 
+# Misc Binaries
+util/buffer_client
+util/buffer_server
+util/cp_node
+util/dist_test
+util/dist_to_proto
+util/get_time_trace
+util/homa_prio
+util/homa_test
+util/inc_tput
+util/receive_raw
+util/scratch
+util/send_raw
+util/server
+util/smi
+util/test_time_trace
+util/use_memory
+
 # Ignore IDE files
 /.idea/
 /nbproject/
