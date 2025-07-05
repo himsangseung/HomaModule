@@ -15,11 +15,61 @@
 *.tt
 *.out
 
-# Ignore IDE files
-/.idea/
-/nbproject/
+# Kernel module build artifacts
+*.cmd
+*.mod
+*.mod.c
+*.ko
+Module.symvers
+modules.order
+.homa.ko.cmd
+.homa.mod.o.cmd
+.homa_*.o.cmd
+.Module.symvers.cmd
+.modules.order.cmd
+.homa.mod.cmd
 
-reports/
-traces/
-users/
-saved_traces/
+# Binary utilities (compiled from util/ directory)
+util/
+*.exe
+*.bin
+
+# Performance and profiling data
+*.perf
+*.trace
+*.tt
+*.dump
+
+# Backup and temporary files
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
